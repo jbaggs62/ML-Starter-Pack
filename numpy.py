@@ -1,6 +1,6 @@
 import numpy as np
 
-
+### Numpy sample code from numpy https://numpy.org/
 x = np.arange(15, dtype=np.int64).reshape(3, 5)
 x[1:, ::2] = -99
 x
